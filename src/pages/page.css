@@ -1,0 +1,70 @@
+.initial-input{
+
+}
+.legend-form{
+    color:#227EAE ;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+.initial-form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.form{
+    width: 1000px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 10px 15px 18px 0px rgba(34, 60, 80, 0.58);
+}
+.btn{
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    min-width: 138px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    border: 1px solid #0267B5;
+    font-size: 10px;
+    font-size: 0.75714rem;
+    background: #0267B5;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.3s linear;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 250px;
+    margin: 0 auto;
+}
+.input-item{
+    border-top: #b0b4bb 1px solid;
+    padding: 10px;
+}
+
+.input-name{
+    padding-right: 20px;
+    width: 200px;
+}
+.input-tfloor{
+
+}
+.calculated-parametr{
+    border: #b0b4bb double 1px;
+    margin: 10px;
+}
+.calculationpage{
+    align-content: center;
+    justify-content: center;
+}

@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.text-align{
+  text-align: left;
+}
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
+
+.disabled{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.m20{
+  margin: 20px !important;
+}
+
+.title227-30{
+  color:#227EAE ;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS';
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+.titleb0b-30{
+  color:#b0b4bb ;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS';
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+.titleb0b-20{
+  color:#b0b4bb ;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS';
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+a {
+  text-decoration:none;
+  color: #fff;
+}
+.logo{
+  width: 400px;
+}
+.spbtwn{
+  justify-content: space-between;
+}

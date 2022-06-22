@@ -1,0 +1,15 @@
+.calculation-parameters__title{
+    align-items: center;
+    justify-content: center;
+}
+.calculation-parameters__inner{
+    align-items: center;
+    justify-content: center;
+}
+.parameter__item{
+    align-items: center;
+    justify-content: center;
+}
+.parameter__title{
+    margin: 5px;;
+}

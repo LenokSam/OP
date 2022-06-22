@@ -1,0 +1,10 @@
+.header{
+    background-color: #227eae;
+    padding: 20px 0px;
+}
+.header__title{
+    color: #d4d4d4;
+    font-size: 48px;
+    font-family: Oswald;
+    line-height: 1;
+} 
